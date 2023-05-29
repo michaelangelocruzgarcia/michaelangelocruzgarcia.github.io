@@ -443,7 +443,7 @@ textarea:focus {
 
 /* Start Footer */
 .footer {
-  background: rgb(4, 4, 4);
+  background: rgb(0, 0, 0);
   padding: 15px 0;
   text-transform: capitalize;
   text-align: center;

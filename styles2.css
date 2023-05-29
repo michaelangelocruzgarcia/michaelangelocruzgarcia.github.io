@@ -1,6 +1,6 @@
 .flex-center {
     width: 100%;
-    min-height: 5vh;
+    min-height: 10vh;
     background: #000;
     display: -webkit-box;
     display: -webkit-flex;
