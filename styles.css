@@ -382,7 +382,6 @@ img {
   padding-bottom: var(--sections-padding);
 }
 .contact .description {
-  text-transform: capitalize;
   font-size: 20px;
   text-align: center;
   max-width: 70%;
@@ -444,7 +443,7 @@ textarea:focus {
 
 /* Start Footer */
 .footer {
-  background: white;
+  background: rgb(4, 4, 4);
   padding: 15px 0;
   text-transform: capitalize;
   text-align: center;
@@ -456,4 +455,6 @@ textarea:focus {
   color: var(--second-color);
 }
 /* End Footer */
-
+img:hover {
+    background:red;
+}
