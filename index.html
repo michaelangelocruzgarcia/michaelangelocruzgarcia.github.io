@@ -1,13 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    
-</body>
-</html>
+
+<!-- Start Header -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a href="#" class="logo"></a>
+    <div class="nav-links">
+      <a href="#welcome-section" class="fill">home</a>
+      <a href="#projects" class="fill">projects</a>
+      <a href="#contact" class="fill">contact</a>
+      <div class="toggle-menu scale-effect">
+        <i class="fas fa-times"></i>
+      </div>
+    </div>
+    <div class="toggle-menu scale-effect">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+</nav>
+<!-- Landing Section -->
+<section class="landing" id="welcome-section">
+  <div class="container">
+    <div class="text">
+      <h1>Michael Angelo Garcia</h1>
+      
+      <span>I'm front end developer!</span>
+      <p>Extremely motivated to constantly develop my skills and grow professionally. I am happy and extremely personable and excel in a positive work environment.</p>
+      <div class="btns-group">
+        <a href="#projects" class="btn btn-primary">let's explorer</a>
+      </div>
+    </div>
+    <div class="image">
+      <img src="https://scontent.fmnl4-2.fna.fbcdn.net/v/t1.6435-9/202468773_1688810871319960_5755866682336783031_n.jpg?_nc_cat=101&cb=99be929b-59f725be&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeH0215if0UtooFuboxUuA5lOuurx1vAMv8666vHW8Ay_1gqy1JcO4x566L04sbbjnEalCk9QKcP-kOfSoIyhkh_&_nc_ohc=aXNp2wjnkeAAX8ksMcY&_nc_oc=AQkgM5eIs1pexGrpJtVGQ8v6VK096fRFAYWilD56hMFolfF3qX0Q9ou0Pio-1vhxI1E&_nc_ht=scontent.fmnl4-2.fna&oh=00_AfDrWNxOQOwKV_qKPgYVp9rklFsBTWyQFwUiXGc6uMjWHw&oe=64978E22" alt="Coding Illsturation" class="picture">
+    </div>
+  </div>
+</section>
+<!-- Projects Section -->
+<section class="projects" id="projects">
+  <h2 class="section-title fill">Projects</h2>
+  <div class="container">
+    <div class="projects-content">
+      <div class="project">
+        <div class="project-image">
+          <img src="https://images.unsplash.com/photo-1498049860654-af1a5c566876?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="Project Image">
+        </div>
+        <div class="project-details">
+          <h3 class="project-tile">project name</h3>
+          <p class="project-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, quos recusandae. Vitae hic sit accusantium!</p>
+          <div class="btns-group">
+            <a href="#" class="btn btn-primary">view project</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-image">
+          <img src="https://images.unsplash.com/photo-1421757295538-9c80958e75b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80" alt="Project Image">
+        </div>
+        <div class="project-details">
+          <h3 class="project-tile">project name</h3>
+          <p class="project-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, quos recusandae. Vitae hic sit accusantium!</p>
+          <div class="btns-group">
+            <a href="#" class="btn btn-primary">view project</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-image">
+          <img src="https://images.unsplash.com/photo-1516542076529-1ea3854896f2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80" alt="Project Image">
+        </div>
+        <div class="project-details">
+          <h3 class="project-tile">project name</h3>
+          <p class="project-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, quos recusandae. Vitae hic sit accusantium!</p>
+          <div class="btns-group">
+            <a href="#" class="btn btn-primary">view project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="more-projects">
+      <a href="" target="_blank" class="btn btn-primary" id="profile-link">show more <i class="fas fa-chevron-right"></i></a>
+    </div>
+  </div>
+</section>
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <h2 class="section-title fill">Contact</h2>
+  <p class="description">send me your feedbacks here and your opinions about this portfolio and remember to be <span class="special">nice</span> <i class="fas fa-heart"></i>.</p>
+  <div class="container">
+    <form action="#" enctype="multipart/form-data" method="post">
+      <div class="field">
+        <label for="first-name">first name</label>
+        <input type="text" id="first-name" placeholder="First name" required>
+      </div>
+      <div class="field">
+        <label for="last-name">last name</label>
+        <input type="text" id="last-name" placeholder="Last name">
+      </div>
+      <div class="field">
+        <label for="email-name">email</label>
+        <input type="text" id="email-name" placeholder="Email" required>
+      </div>
+      <textarea name="user-opinion" placeholder="Your Message..."></textarea>
+      <input type="submit" value="Send Feedback" class="btn btn-primary">
+    </form>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+   
+  </div>
+</footer>
+ </body>
+ </html>
