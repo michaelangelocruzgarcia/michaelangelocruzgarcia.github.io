@@ -9,7 +9,7 @@
 }
 *::placeholder {
   font-size: 15px;
-  font-family: "poppins", sans-serif;
+  font-family: 'League Spartan';
   font-weight: 500;
 }
 :root {
@@ -20,8 +20,8 @@
   --header-height: 60px;
   --sections-padding: 60px;
   --main-color:black;
-  --second-color: red;
-  --third-color: red;
+  --second-color:red;
+  --third-color:red;
   --light-main-color: red;
   --light-second-color:red;
   --light-third-color: hsl(179, 100%, 44%);
@@ -30,7 +30,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'League Spartan';
     background: #E3E2DF;
   font-size: 16px;
 }
@@ -110,7 +110,7 @@ img {
   bottom: -6px;
   width: 0;
   height: 3px;
-  background: var(--second-color);
+  background: white;
   transition: var(--main-transition);
 }
 .fill:hover::after {
@@ -149,9 +149,9 @@ img {
   width: 100%;
   height: auto;
   padding: 15px 0;
-  background: #fff;
+  background: #000000;
   z-index: 99;
-  border-bottom: 1px solid aliceblue;
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 .navbar .container {
   display: flex;
@@ -198,7 +198,7 @@ img {
   display: inline-block;
   text-transform: capitalize;
   margin-right: 25px;
-  color: var(--second-color);
+  color: white;
   font-weight: 500;
   font-size: 16px;
 }
@@ -256,7 +256,9 @@ img {
   font-size: 40px;
   text-transform: capitalize;
   font-weight: 700;
+  font-family: 'League-Spartan';
   letter-spacing: 1px;
+
   color: var(--main-color);
 }
 @media (max-width: 1200px) {
@@ -379,7 +381,7 @@ img {
   padding-bottom: var(--sections-padding);
 }
 .contact .description {
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   max-width: 70%;
   margin: 0 auto;
@@ -427,11 +429,12 @@ textarea:focus {
 .contact form textarea {
   resize: vertical;
   min-height: 220px;
-  font-family: inherit;
+  font-family: 'League Spartan';
 }
 .contact form input[type="submit"] {
   border: none;
   width: fit-content;
+  font-family: 'League Spartan';
   max-width: 400px;
   cursor: pointer;
   margin-top: 5px;
@@ -454,4 +457,7 @@ textarea:focus {
 /* End Footer */
 img:hover {
     background:red;
+}
+p{
+  font-family: 'League Spartan';
 }
